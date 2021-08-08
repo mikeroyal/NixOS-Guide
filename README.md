@@ -137,11 +137,11 @@
 [Rufus](https://rufus.ie/) is a small application that creates bootable USB drives, which can then be used to install or run Microsoft Windows, Linux or DOS.
 
 
-<h1 align="center">
+<h3 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/128645111-b2a92dd2-f246-4df0-b05c-5b0ffce05448.png">
   <br />
   NixOS with the Plasma Desktop
-</h1>
+</h3>
 
 # Getting Software
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
