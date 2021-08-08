@@ -1,5 +1,5 @@
 <h1 align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/128645103-795eebbd-f853-47cc-8087-916dfd98347b.png">
   <br />
    NixOS Guide
 </h1>
@@ -7,6 +7,11 @@
 #### A guide on setting up your NixOS Desktop with all the essential Applications, Tools, and Games to make your experience with NixOS great! This may not be perfect guide for everyone but I feel there is at least one or more perfect solutions for New and Advanced NixOS users.
 
 **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/128645106-874b3883-1d6f-46b8-86f4-2cefd54d4117.png">
+  <br />
+</p>
 
 # Table of Contents
 
@@ -133,7 +138,7 @@
 
 
 <h1 align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/128645111-b2a92dd2-f246-4df0-b05c-5b0ffce05448.png">
   <br />
   NixOS with the Plasma Desktop
 </h1>
