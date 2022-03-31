@@ -62,6 +62,26 @@
 
 [NixOS Packages Search](https://search.nixos.org/packages) is a tool for searching through NixOS packages.
 
+[NixOS on M1 Macs](https://github.com/tpwrules/nixos-m1)
+
+[NixOS Wiki](https://nixos.wiki/)
+
+[NixOS Pills - Developer Guides](https://nixos.org/guides/nix-pills/)
+
+[Cheatsheet - NixOS Wiki](https://nixos.wiki/index.php?title=Cheatsheet&useskin=vector)
+
+[What Is Nix — Developer Tooling | Shopify Engineering](https://shopify.engineering/what-is-nix)
+
+[NixOS Learn](https://nixos.org/learn.html)
+
+[Nix Package Manager Manual](https://nixos.org/manual/nix/stable/#chap-installation)
+
+[NixOS Community](https://nixos.org/community.html)
+
+[NixOS Governance](https://nixos.org/governance.html)
+
+[Consider Donating to the NixoS Project](https://nixos.org/donate.html)
+
 [Hydra](https://github.com/nixos/hydra) is Nix's official continuous integration and build system.
 
 [Kubenix](https://github.com/xtruder/kubenix) is a Kubernetes resource builder written in Nix.
@@ -120,22 +140,9 @@
 
 [Nixfmt](https://github.com/serokell/nixfmt) is a formatter for Nix code.
 
-[NixOS Wiki](https://nixos.wiki/)
-
-[NixOS Learn](https://nixos.org/learn.html)
-
-[Nix Package Manager Manual](https://nixos.org/manual/nix/stable/#chap-installation)
-
-[NixOS Community](https://nixos.org/community.html)
-
-[NixOS Governance](https://nixos.org/governance.html)
-
-[Consider Donating to the NixoS Project](https://nixos.org/donate.html)
-
 [Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
 
 [Rufus](https://rufus.ie/) is a small application that creates bootable USB drives, which can then be used to install or run Microsoft Windows, Linux or DOS.
-
 
 <h3 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/128645111-b2a92dd2-f246-4df0-b05c-5b0ffce05448.png">
