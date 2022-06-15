@@ -349,6 +349,7 @@ I recommend using Flatpaks on NixOS, which makes installing/updating application
 **[Setting up Flatpak on NixOS](https://www.flatpak.org/setup/NixOS)**
 
 ## Steam
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
 [Steam - NixOS Wiki](https://nixos.wiki/wiki/Steam)
 
@@ -368,6 +369,7 @@ I recommend using Flatpaks on NixOS, which makes installing/updating application
  <img src="https://user-images.githubusercontent.com/45159366/106686402-13100100-657f-11eb-9012-6bdac264a808.png">
 
 ## ProtonDB
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
 [ProtonDB](https://www.protondb.com) is a collection of over 100,000 gaming reports from other gamers as they test games with Proton on Linux and provide aggregate scores of how well games perform. A growing pool of suggestions provides tweaks that you can try to get games working while Proton continues development. In addition to this, you may explore the Steam game catalog on this site to browse and discover a wide range of titles that were previously unavailable for use on Linux.
 
@@ -380,6 +382,7 @@ I recommend using Flatpaks on NixOS, which makes installing/updating application
 </p>
 
 ## Lutris
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
 [Lutris](https://github.com/lutris/lutris/releases) is a gaming client for Linux. It gives you access to all your video games with the exception of the current console generation. Also, integrates nicely with other stores like GOG, Steam, Battle.net, Origin, Uplay and many other sources that allow you to import your existing game library and community maintained install scripts give you a completely automated setup.
 
@@ -388,6 +391,7 @@ I recommend using Flatpaks on NixOS, which makes installing/updating application
  <img src="https://user-images.githubusercontent.com/45159366/106686406-14412e00-657f-11eb-97c4-c80c6e25a374.png">
 
 ## GameHub
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
 [GameHub](hhttps://github.com/tkashkin/GameHub/releases) is a unified library for all your games. It allows you to store your games from different platforms into one program to make it easier for you to manage your games.
 
