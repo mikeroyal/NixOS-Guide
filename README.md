@@ -17,7 +17,7 @@
 
 1. [Getting Started](https://github.com/mikeroyal/NixOS-Guide#getting-started)
 
-     - [NixOS Developer Resources](https://github.com/mikeroyal/NixOS-Guide#NixOS-resources)
+     - [NixOS Developer Resources](https://github.com/mikeroyal/NixOS-Guide#NixOS-developer-resources)
   
      - [NixOS Tools & Modules](https://github.com/mikeroyal/NixOS-Guide#NixOS-Tools-and-Modules)
   
@@ -34,6 +34,8 @@
    - [Epic Games Store](https://github.com/mikeroyal/NixOS-Guide#epic-games-store)
    - [Game Streaming](https://github.com/mikeroyal/NixOS-Guide#game-streaming)
    - [Game Emulators](https://github.com/mikeroyal/NixOS-Guide#game-emulators)
+   - [Graphics Performance](https://github.com/mikeroyal/NixOS-Guide#graphics-performance)
+   - [WINE](https://github.com/mikeroyal/NixOS-Guide#wine)
 
 4. [Setting up a macOS Workspace](https://github.com/mikeroyal/NixOS-Guide#setting-up-a-macos-workspace)
 
@@ -137,7 +139,7 @@
 
  - [Nixpkgs - Python packaging, and development workflow. | Jon Ringer on YouTube](https://www.youtube.com/watch?v=jXd-hkP4xnU)
 
-### NixOS Tools
+### NixOS Tools and Modules
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
  - [Hydra](https://github.com/nixos/hydra) is Nix's official continuous integration and build system.
@@ -379,7 +381,7 @@ I recommend using Flatpaks on NixOS, which makes installing/updating application
 
 ## Lutris
 
-[Lutris](https://lutris.net)is a gaming client for Linux. It gives you access to all your video games with the exception of the current console generation. Also, integrates nicely with other stores like GOG, Steam, Battle.net, Origin, Uplay and many other sources that allow you to import your existing game library and community maintained install scripts give you a completely automated setup.
+[Lutris](https://github.com/lutris/lutris/releases) is a gaming client for Linux. It gives you access to all your video games with the exception of the current console generation. Also, integrates nicely with other stores like GOG, Steam, Battle.net, Origin, Uplay and many other sources that allow you to import your existing game library and community maintained install scripts give you a completely automated setup.
 
 [Add Epic Games Store](https://lutris.net/games/epic-games-store/)
 
@@ -387,7 +389,7 @@ I recommend using Flatpaks on NixOS, which makes installing/updating application
 
 ## GameHub
 
-[GameHub](https://github.com/tkashkin/GameHub) is a unified library for all your games. It allows you to store your games from different platforms into one program to make it easier for you to manage your games.
+[GameHub](hhttps://github.com/tkashkin/GameHub/releases) is a unified library for all your games. It allows you to store your games from different platforms into one program to make it easier for you to manage your games.
 
 <img src="https://user-images.githubusercontent.com/45159366/107862734-96451880-6e03-11eb-9b92-9d355b890083.png">
 
@@ -534,18 +536,17 @@ I recommend using Flatpaks on NixOS, which makes installing/updating application
 
 
 ## Graphics Performance
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
 [GreenWithEnvy (GWE)](https://gitlab.com/leinardi/gwe) is a GTK system utility designed by Roberto Leinardi to provide information, control the fans and overclock your NVIDIA video card for better performance. [Flatpak version](https://flathub.org/apps/details/com.leinardi.gwe).
 
 <img src="https://user-images.githubusercontent.com/45159366/107091994-89974380-67b7-11eb-85ed-eedec7e3dfbf.png">
 
 ## Wine
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
 [WINE(Wine Is Not an Emulator)](https://www.winehq.org) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.
 
-## Winetricks
-
-[Winetricks](https://github.com/Winetricks/winetricks) is an easy way to work around problems in Wine.
 
 # Setting up a macOS workspace
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
