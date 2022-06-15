@@ -17,6 +17,12 @@
 
 1. [Getting Started](https://github.com/mikeroyal/NixOS-Guide#getting-started)
 
+     - [NixOS Developer Resources](https://github.com/mikeroyal/NixOS-Guide#NixOS-resources)
+  
+     - [NixOS Tools & Modules](https://github.com/mikeroyal/NixOS-Guide#NixOS-Tools-and-Modules)
+  
+     - [NixOS Desktop](https://github.com/mikeroyal/NixOS-Guide#NixOS-Desktop)
+
 2. [Getting Software](https://github.com/mikeroyal/NixOS-Guide#getting-software)
 
 3. [Gaming](https://github.com/mikeroyal/NixOS-Guide/blob/main/README.md#gaming)
@@ -50,188 +56,256 @@
 
 # Getting Started
 
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
 [NixOS](https://nixos.org/) is a Linux distribution built on top of the [Nix package manager](https://nixos.wiki/wiki/Nix). It has tools dedicated to DevOps and deployment tasks.
 
-[Nix Tour](https://nixcloud.io/tour/) is an interactive tour that uses the actual package manager to learn you the language by example, in the browser
+[Nix Tour](https://nixcloud.io/tour/) is an interactive tour that uses the actual package manager to learn you the language by example, in the browser.
 
 [Nix](https://nixos.wiki/wiki/Nix) is a package manager and build system that parses reproducible build instructions specified in the [Nix Expression Language](https://nixos.wiki/wiki/Nix_Expression_Language), is a pure functional language with lazy evaluation. Nix expressions are pure functions taking dependencies as arguments and producing derivation specifying a reproducible build environment for the package. Nix stores the results of the build in unique addresses specified by a hash of the complete dependency tree, creating an immutable package store that allows for atomic upgrades, rollbacks and concurrent installation of different versions of a package, essentially eliminating [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell).
 
 [Nix Expression Language](https://nixos.wiki/wiki/Nix_Expression_Language) is a pure, lazy, functional language. Purity means that operations in the language don't have side-effects (for instance, there is no variable assignment). The language is not a full-featured, general purpose language. Its main job is to describe packages, compositions of packages, and the variability within packages.
 
-[Nixpkgs](https://nixos.wiki/wiki/Nixpkgs) is the largest repository of [Nix](https://nixos.wiki/wiki/Nix) packages(over 60,000 packages) and [NixOS](https://nixos.wiki/wiki/NixOS) modules. The repository is [hosted on GitHub](https://github.com/nixos/nixpkgs) and maintained by the community, with official backing from the [NixOS Foundation](https://nixos.org/). Additionally, checkout [Language-specific package helpers](https://nixos.wiki/wiki/Language-specific_package_helpers) and [Alternative Package Sets](https://nixos.wiki/wiki/Alternative_Package_Sets).
+[Nixpkgs](https://nixos.wiki/wiki/Nixpkgs) is the largest repository of [Nix](https://nixos.wiki/wiki/Nix) packages(over 80,000 packages) and [NixOS](https://nixos.wiki/wiki/NixOS) modules. The repository is [hosted on GitHub](https://github.com/nixos/nixpkgs) and maintained by the community, with official backing from the [NixOS Foundation](https://nixos.org/). Additionally, checkout [Language-specific package helpers](https://nixos.wiki/wiki/Language-specific_package_helpers) and [Alternative Package Sets](https://nixos.wiki/wiki/Alternative_Package_Sets).
 
 [NixOS Packages Search](https://search.nixos.org/packages) is a tool for searching through NixOS packages.
 
-[NixOS on M1 Macs](https://github.com/tpwrules/nixos-m1)
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/173939766-8972583c-855e-4a9b-b9f1-761b60ea255e.png">
+  <br />
+  NixOS Packages Search
+</p>
 
-[NixOS Wiki](https://nixos.wiki/)
+### NixOS Developer Resources
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
-[NixOS Pills - Developer Guides](https://nixos.org/guides/nix-pills/)
+ - [NixOS Wiki](https://nixos.wiki/)
 
-[Cheatsheet - NixOS Wiki](https://nixos.wiki/index.php?title=Cheatsheet&useskin=vector)
+ - [NixOS Pills - Developer Guides](https://nixos.org/guides/nix-pills/)
+ 
+ - [NixOS Learn](https://nixos.org/learn.html)
 
-[What Is Nix — Developer Tooling | Shopify Engineering](https://shopify.engineering/what-is-nix)
+ - [Nix Package Manager Manual](https://nixos.org/manual/nix/stable/#chap-installation)
 
-[NixOS Learn](https://nixos.org/learn.html)
+ - [Home Manager - NixOS Wiki](https://nixos.wiki/wiki/Home_Manager)
+ 
+ - [What Is Nix — Developer Tooling | Shopify Engineering](https://shopify.engineering/what-is-nix)
 
-[Nix Package Manager Manual](https://nixos.org/manual/nix/stable/#chap-installation)
+ - [Cheatsheet - NixOS Wiki](https://nixos.wiki/index.php?title=Cheatsheet&useskin=vector)
+ 
+ - [nix.dev guide for developers](https://nix.dev/)
+ 
+ - [Hound - search across all/selected Nix-related repositories.](https://search.nix.gsc.io) 
+ 
+ - [Nix Shorts](https://github.com/justinwoo/nix-shorts/)
 
-[NixOS Community](https://nixos.org/community.html)
+ - [Getting started with Home Manager for Nix](https://ghedam.at/24353/tutorial-getting-started-with-home-manager-for-nix)
 
-[NixOS Governance](https://nixos.org/governance.html)
+ - [NixOS Wiki - Raspberry Pi 4](https://nixos.wiki/wiki/NixOS_on_ARM/Raspberry_Pi_4)
 
-[Consider Donating to the NixoS Project](https://nixos.org/donate.html)
+ - [NixOS aarm64 SD image](https://hydra.nixos.org/job/nixos/trunk-combined/nixos.sd_image.aarch64-linux)
 
-[Hydra](https://github.com/nixos/hydra) is Nix's official continuous integration and build system.
+ - [nixery.dev](https://nixery.dev/)
+ 
+ - [NixOS Discourse Forum](https://discourse.nixos.org/)
+ 
+ - [NixCon- annual community conference](https://nixcon.org/)
 
-[Kubenix](https://github.com/xtruder/kubenix) is a Kubernetes resource builder written in Nix.
+ - [NixOS Community](https://nixos.org/community.html)
 
-[Nix-kubernetes](https://github.com/xtruder/nix-kubernetes) is a Kubernetes deployment manager written in nix.
+ - [NixOS Governance](https://nixos.org/governance.html)
 
-[Disnix](https://github.com/svanderburg/disnix) is a microservice architecture built with Nix.
+ - [Consider Donating to the NixoS Project](https://nixos.org/donate.html)
 
-[Hail](https://github.com/TaktInc/hail) is a service for pull-based continuous deployment.
+#### YouTube videos on NixOS
 
-[Morph](https://github.com/DBCDK/morph) is a NixOS deployment tool.
+ - [NixOS Is The Power User Distro (Now With An Easy Installer!) | DistroTube on YouTube](https://www.youtube.com/watch?v=ck4J2Faa7Fc)
 
-[Nixery](https://nixery.dev/) is a ad-hoc container images from Nix.
+ - [NixOS | Installation and First Impressions | Tyler's Tech on YouTube](https://www.youtube.com/watch?v=IdoCOqkAexY)
 
-[Arion](https://github.com/hercules-ci/arion#readme) is a configure Docker Compose with Nix modules.
+ - [NixOS Setup Guide - Configuration/Home-Manager/Flakes | Matthias Benaets on YouTube](https://www.youtube.com/watch?v=AGVXJ-TIv3Y)
 
-[Deploy-rs](https://github.com/serokell/deploy-rs) is a simple multi-profile Nix-flake deploy tool.
+ - [NixOS: How it works and how to install it! | DorianDotSlash on YouTube](https://www.youtube.com/watch?v=oPymb2-IXbg)
 
-[Fractalide](https://github.com/fractalide/fractalide) is a reusable Reproducible Composable Software.
+ - [Nixpkgs - Python packaging, and development workflow. | Jon Ringer on YouTube](https://www.youtube.com/watch?v=jXd-hkP4xnU)
 
-[Musnix](https://github.com/musnix/musnix) is a real-time audio modules for NixOS.
+### NixOS Tools
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
-[Nix-bundle](https://github.com/matthewbauer/nix-bundle) is a  package Nix attributes into single-file executables.
+ - [Hydra](https://github.com/nixos/hydra) is Nix's official continuous integration and build system.
 
-[Nix-darwin](https://github.com/LnL7/nix-darwin)  are NixOS modules for Darwin.
+ - [Kubenix](https://github.com/xtruder/kubenix) is a Kubernetes resource builder written in Nix.
 
-[Extra-container](https://github.com/erikarvstedt/extra-container) is a run declarative NixOS containers from the command line. Similar to nixos-shell (chrisfarms).
+ - [Nix-kubernetes](https://github.com/xtruder/nix-kubernetes) is a Kubernetes deployment manager written in nix.
 
-[Nixcloud-webservices](https://github.com/nixcloud/nixcloud-webservices) is a set of nixpkgs extension for web-related technologies.
+ - [Disnix](https://github.com/svanderburg/disnix) is a microservice architecture built with Nix.
 
-[Krops](https://cgit.krebsco.de/krops/about/) is a stateless alternative to nixops with improved secret management.
+ - [Hail](https://github.com/TaktInc/hail) is a service for pull-based continuous deployment.
 
-[Nix-bitcoin](https://github.com/nixbitcoin/nix-bitcoin/) is a set of NixOS modules to install a bitcoin node with emphasis on security.
+ - [Morph](https://github.com/DBCDK/morph) is a NixOS deployment tool.
 
-[Nixpkgs-review](https://github.com/Mic92/nixpkgs-review) is a review nixpkgs pull requests.
+ - [Nixery](https://nixery.dev/) is a ad-hoc container images from Nix.
 
-[Nix-update](https://github.com/Mic92/nix-update) is a swiss army knife for updating nix packages.
+ - [Home Manager](https://github.com/nix-community/home-manager) is a tool to manage your user configuration just like NixOS.s.
 
-[Nox](https://github.com/madjar/nox) is a set of tools to make Nix easier to use.
+ - [NixVim](https://github.com/pta2002/nixvim) is a NeoVim distribution built with Nix modules and Nixpkgs.
 
-[Nix-diff](https://github.com/Gabriel439/nix-diff) is a tool to compare Nix derivations.
+ - [Simple Nixos Mailserver](https://gitlab.com/simple-nixos-mailserver/nixos-mailserver) is a complete mailserver, managed with NixOS modules.
 
-[Niff](https://github.com/FRidh/niff) is a tool to compare two Nix expressions to determine what attributes changes.
+ - [Stylix](https://github.com/danth/stylix) is a system-wide colorscheming and typography for NixOS.
 
-[Nix-upgrade-scripts](https://github.com/peterhoeg/nix-upgrade-scripts)  is a set of tools for Nixpkgs maintainers to upgrade packages.
+ - [Awesome-Nix-HPC](https://github.com/freuk/awesome-nix-hpc) is a High Performance Computing package sets.
 
-[Nixops-manager](https://github.com/grafted-in/nixops-manager) is a NixOps wrapper for Git repositories.
+ - [Nix-darwin](https://github.com/LnL7/nix-darwin) is a tool to manage macOS configuration just like on NixOS.
 
-[Narfuse](https://github.com/taktoa/narfuse) is a  FUSE filesystem for mounting Nix archive (NAR) files as a virtual Nix store.
+ - [Nixpkgs-firefox-darwin](https://github.com/bandithedoge/nixpkgs-firefox-darwin) is a nikpkg to automatically updated Firefox binary packages for macOS.
 
-[Nix-visualize](https://github.com/craigmbooth/nix-visualize) is a tool to visualize the dependencies of a given package.
+ - [Nixpkgs-wayland](https://github.com/nix-community/nixpkgs-wayland) is a bleeding-edge Wayland packages.
 
-[Home-manager](https://github.com/rycee/home-manager) is a system for managing a user environment using Nix.
+ - [NUR(Nix User Repositories)](https://github.com/nix-community/NUR/) is the mother of all overlays, allowing access to user repositories and installing packages via attributes.
 
-[NixGl](https://github.com/guibou/nixGL) is a wrapper to run OpenGL applications outside of NixOS.
+ - [Alejandra](https://github.com/kamadorueda/alejandra) is a opinionated Nix code formatter optimized for speed and consistency.
 
-[Nixfmt](https://github.com/serokell/nixfmt) is a formatter for Nix code.
+ - [Comma](https://github.com/Shopify/comma) is a tool that quickly runs any binary; wraps together `nix run` and `nix-index`
 
-[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+ - [Colmena](https://github.com/zhaofengli/colmena) is a simple, stateless NixOS deployment tool modeled after NixOps and morph.
 
-[Rufus](https://rufus.ie/) is a small application that creates bootable USB drives, which can then be used to install or run Microsoft Windows, Linux or DOS.
+ - [Krops](https://cgit.krebsco.de/krops/about/) is a lightweight toolkit to deploy NixOS systems, remotely or locally.
 
-<h3 align="center">
+ - [KuberNix](https://github.com/saschagrunert/kubernix) is a single-dependency Kubernetes clusters via Nix packages.
+
+ - [Terraform-nixos](https://github.com/tweag/terraform-nixos) is a set of Terraform modules designed to deploy NixOS.
+
+ - [Terranix](https://terranix.org) is a tool to use Nix and the NixOS module system to write your Terraform code.
+
+ - [Arion](https://github.com/hercules-ci/arion#readme) is a configure Docker Compose with Nix modules.
+
+ - [Deploy-rs](https://github.com/serokell/deploy-rs) is a simple multi-profile Nix-flake deploy tool.
+
+ - [Fractalide](https://github.com/fractalide/fractalide) is a reusable Reproducible Composable Software.
+
+ - [Nixos-shell](https://github.com/Mic92/nixos-shell) is a simple headless VM configuration using Nix (similar to Vagrant).
+
+ - [Pushnix](https://github.com/arnarg/pushnix) is a simple cli utility that pushes NixOS configuration and triggers a rebuild using ssh.
+
+ - [Musnix](https://github.com/musnix/musnix) is a real-time audio modules for NixOS.
+
+ - [Nix-bundle](https://github.com/matthewbauer/nix-bundle) is a package Nix attributes into single-file executables.
+
+ - [Extra-container](https://github.com/erikarvstedt/extra-container) is a run declarative NixOS containers from the command line. Similar to nixos-shell (chrisfarms).
+
+ - [Nixcloud-webservices](https://github.com/nixcloud/nixcloud-webservices) is a set of nixpkgs extension for web-related technologies.
+
+ - [Krops](https://cgit.krebsco.de/krops/about/) is a stateless alternative to nixops with improved secret management.
+
+ - [Mach-nix](https://github.com/DavHau/mach-nix) is a tool that makes it easy to create and share reproducible python environments or packages. Existing tools for python package management often suffer from reproducibility and complexity issues, requiring a multitude of tools and additional virtualization layers to work sufficiently. 
+ 
+ - [Fenix](https://github.com/nix-community/fenix) is a Rust toolchains and Rust analyzer nightly for nix.
+
+ - [NixOS-WSL](https://github.com/nix-community/NixOS-WSL) is a minimal root filesystem for running NixOS on WSL. It can be used with DistroLauncher as ```install.tar.gz``` or as input to ```wsl --import --version 2```.
+
+ - [Nix-bitcoin](https://github.com/nixbitcoin/nix-bitcoin/) is a set of NixOS modules to install a bitcoin node with emphasis on security.
+
+ - [Nixpkgs-review](https://github.com/Mic92/nixpkgs-review) is a review nixpkgs pull requests.
+
+ - [Nix-update](https://github.com/Mic92/nix-update) is a swiss army knife for updating nix packages.
+
+ - [Nox](https://github.com/madjar/nox) is a set of tools to make Nix easier to use.
+
+ - [Nix-diff](https://github.com/Gabriel439/nix-diff) is a tool to compare Nix derivations.
+
+ - [Niff](https://github.com/FRidh/niff) is a tool to compare two Nix expressions to determine what attributes changes.
+
+ - [Nix-upgrade-scripts](https://github.com/peterhoeg/nix-upgrade-scripts)  is a set of tools for Nixpkgs maintainers to upgrade packages.
+
+ - [Nixops-manager](https://github.com/grafted-in/nixops-manager) is a NixOps wrapper for Git repositories.
+
+ - [Narfuse](https://github.com/taktoa/narfuse) is a FUSE filesystem for mounting Nix archive (NAR) files as a virtual Nix store.
+
+ - [Nix-visualize](https://github.com/craigmbooth/nix-visualize) is a tool to visualize the dependencies of a given package.
+
+ - [Home-manager](https://github.com/rycee/home-manager) is a system for managing a user environment using Nix.
+
+ - [NixGl](https://github.com/guibou/nixGL) is a wrapper to run OpenGL applications outside of NixOS.
+
+ - [Nixfmt](https://github.com/serokell/nixfmt) is a formatter for Nix code.
+
+ - [Nix-index](https://github.com/bennofs/nix-index) is a tool that quickly locate Nix packages with specific files.
+
+ - [Nix-prefetch](https://github.com/msteen/nix-prefetch) is a universal tool for updating source checksums.
+
+ - [Nix-tree](https://github.com/utdemir/nix-tree) is a tool that let's you interactively browse the dependency graph of Nix derivations.
+
+ - [Statix](https://github.com/nerdypepper/statix) is a linter/fixer to check for and fix antipatterns in Nix code.
+
+ - [Cached-nix-shell](https://github.com/xzfc/cached-nix-shell) is a `nix-shell` replacement that uses caching to open subsequent shells quickly.
+
+ - [Cachix](https://cachix.org/) is a hosted binary cache service; free for open-source projects.
+
+ - [Devshell](https://github.com/numtide/devshell) is a `mkShell` with extra bits and a toml config option to be able to onboard non-nix users.
+
+ - [Flake-utils](https://github.com/numtide/flake-utils) - Pure Nix flake utility functions to help with writing flakes.
+
+ - [Gitignore.nix](https://github.com/hercules-ci/gitignore.nix) - The most feature-complete and easy-to-use `.gitignore` integration.
+
+ - [Lorri](https://github.com/target/lorri/) is a much better `nix-shell` for development that augments direnv.
+
+ - [Makes](https://github.com/fluidattacks/makes) is a Nix-based CI/CD pipeline framework for building, testing, and releasing projects in any language, from anywhere. 
+
+ - [Niv](https://github.com/nmattia/niv/) is a easy dependency management for Nix projects with package pinning.
+
+ - [Nix-direnv](https://github.com/nix-community/nix-direnv) is a fast loader and flake-compliant configuration for the direnv environment auto-loader.
+
+ - [Nixpkgs-review](https://github.com/Mic92/nixpkgs-review) is the best tool to verify that a pull-request in Nixpkgs is building properly.
+
+ - [Pre-commit-hooks.nix](https://github.com/cachix/pre-commit-hooks.nix) is a tool to run linters/formatters at commit time and on your CI.
+
+ - [Robotnix](https://github.com/danielfullmer/robotnix) is a declarative and reproducible build system for Android (AOSP) images.
+
+ - [Nixpkgs-hammering](https://github.com/jtojnar/nixpkgs-hammering) is a nixpkg to beat your package expressions into a shape.
+
+ - [Nix-alien](https://github.com/thiagokokada/nix-alien) is a tool to run unpatched binaries on Nix/NixOS easily.
+
+### NixOS Desktop
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+
+ - [nixos-generators](https://github.com/nix-community/nixos-generators) is a NixOS config and build multiple different images types including VirtualBox VMs, Azure images, and installation ISOs.
+ 
+ - [nixos-up](https://github.com/samuela/nixos-up) is a super easy NixOS installer that can be used from the installation ISO.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/173939768-31847173-88ab-45f0-8501-0980d1a2a29e.png">
+  <br />
+  NixOS Desktop with the new Calamares Installer
+</p>
+
+<p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/128645111-b2a92dd2-f246-4df0-b05c-5b0ffce05448.png">
   <br />
   NixOS with the Plasma Desktop
-</h3>
+</p>
 
 # Getting Software
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
-**Note 1: All this software is also available in other popular Linux distributions such as [Debian](https://www.debian.org/), [Linux Mint](https://linuxmint.com/), [elementary OS](https://elementary.io/), [Pop!_OS](https://pop.system76.com/), [Fedora](https://getfedora.org), [Manjaro Linux](https://manjaro.org/), [EndeavourOS](https://endeavouros.com/) and [Arch Linux](https://archlinux.org/).**
+[Nixpkgs](https://nixos.wiki/wiki/Nixpkgs) is the largest repository of [Nix](https://nixos.wiki/wiki/Nix) packages(over 80,000 packages) and [NixOS](https://nixos.wiki/wiki/NixOS) modules. The repository is [hosted on GitHub](https://github.com/nixos/nixpkgs) and maintained by the community, with official backing from the [NixOS Foundation](https://nixos.org/). Additionally, checkout [Language-specific package helpers](https://nixos.wiki/wiki/Language-specific_package_helpers) and [Alternative Package Sets](https://nixos.wiki/wiki/Alternative_Package_Sets).
 
-**Note 2: For new users not comfortable with using the command-line checkout the Essential Apps section to get started. Also, if you scroll down further you'll see other easy ways to get software applications through Flathub, Snap Store, and AppImages.**
+[NixOS Packages Search](https://search.nixos.org/packages) is a tool for searching through NixOS packages.
 
-## Essential Apps(depending on your workflow)
-
-[Visual Studio Code](https://code.visualstudio.com/Download) or [VSCodium](https://vscodium.com)
-
-[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app)
-
-[Microsoft 365 with Office apps(formerly Office Online)](https://www.microsoft.com/en-us/microsoft-365/free-office-online-for-the-web)
-
-[Google Workspace (formerly G Suite)](https://workspace.google.com/)
-
-[Zoom](https://zoom.us/download?os=linux)
-
-[How to install iCloud on Ubuntu](https://snapcraft.io/install/icloud-for-linux/ubuntu)
-
-[pCloud](https://www.pcloud.com/) is the secure cloud storage(like GoogleDrive), where you can store, share and work on all your files. You can access them on any device, anywhere you go.
-
-[Jitsi Meet](https://jitsi.org/jitsi-meet/) is a fully encrypted, 100% open source video conferencing solution.
-
-[Cisco Webex Web App](https://help.webex.com/en-us/n1pxgbz/Cisco-Webex-Web-App) is the web based version of Cisco Webex video conferencing solution.
-
-[Slack](https://slack.com/downloads/linux)
-
-[Trello Web App](https://trello.com/platforms)
-
-[Skype](https://www.skype.com/en/get-skype/)
-
-[Discord](https://discord.com/download)
-
-[TeamViewer](https://www.teamviewer.com/en/download/linux/)
-
-[Spotify](https://www.spotify.com/us/download/linux/)
-
-[Apple Music(Web)](https://music.apple.com/) is the web app version of Apple Music that runs in Safari, Google Chrome and Mozilla Firefox.
-
-[MATLAB Online](https://matlab.mathworks.com) allows to users to uilitize MATLAB and Simulink through a web browser such as Google Chrome.
-
-[Adobe Lighroom Online photo editor](https://lightroom.adobe.com) is an online web version of Adobe Photoshop Lightroom. Adobe account required to sign-in to app.
-
-[Adobe Spark(Web)](https://spark.adobe.com) is an applications let you make cool Social Graphics, Short Videos, and Web Pages. Adobe account required to sign-in to app.
-
-[Photopea](https://www.photopea.com/) is an advanced online image editor supporting PSD, XCF, Sketch, XD and CDR formats. (Adobe Photoshop, GIMP, Sketch App, Adobe XD, CorelDRAW).
-
-[CrossOver Linux®](https://www.codeweavers.com/crossover) is a Microsoft Windows compatibility layer(based on [WINE(Wine Is Not an Emulator)](https://www.winehq.org)). The CrossOver compatibility layer enables thousands of Windows-based applications to run on Linux, macOS, or Chrome OS.
-
-[WinApps for Linux](https://github.com/Fmstrat/winapps) is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
-
-[DaVinci Resolve video editor](https://www.blackmagicdesign.com/products/davinciresolve/) is complete video editing solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool.
-
-[Reaper Audio editor](https://www.reaper.fm/download.php) is a complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.
-
-[Flameshot](https://flameshot.org/) is a powerful yet simple to use screenshot software.
-
-[Timeshift](https://github.com/linuxmint/timeshift) for Linux is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
-
-[Stacer](https://github.com/oguzhaninan/Stacer) is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
-
-[Nativefier](https://github.com/nativefier/nativefier) is a command-line tool to easily create a desktop app for any web site with minimal configuration. Apps are wrapped by [Electron](https://www.electronjs.org/) (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/173939766-8972583c-855e-4a9b-b9f1-761b60ea255e.png">
+  <br />
+  NixOS Packages Search
+</p>
 
 
-## App Outlet
-
-[App Outlet](https://app-outlet.github.io/) is a Universal application store(Flatpaks, Snaps, and AppImages) inspired by the Linux App Store online service.
-
- <img src="https://user-images.githubusercontent.com/45159366/106686354-0095c780-657f-11eb-892b-659d3252d6e7.png">
-
-## Snaps
-
-[Snap Store](https://snapcraft.io/store) is a build and distribution service for Snap applications.
-
-[Snapcraft Forum](https://forum.snapcraft.io/)
-
- <img src="https://user-images.githubusercontent.com/45159366/106686375-08ee0280-657f-11eb-9918-5385d8c09148.png">
- <img src="https://user-images.githubusercontent.com/45159366/106686378-0a1f2f80-657f-11eb-83aa-37ac96c7b032.png">
+**Using Flatpaks on NixOS makes installing/updating applications a lot easier especially if some software is proprietary.**
 
 ## Flatpaks
+
+**[Setting up Flatpak on NixOS](https://www.flatpak.org/setup/NixOS)**
 
 [FlatHub](https://flathub.org/) is a build and distribution service for Flatpak applications.
 
@@ -241,6 +315,10 @@
 
 ## AppImages
 
+[AppImageKit](https://search.nixos.org/packages?channel=22.05&show=appimagekit&from=0&size=50&sort=relevance&type=packages&query=appimage) is an implementation of the AppImage format that provides tools such as appimagetool and appimaged for handling AppImages. 
+
+```$ nix-env -iA nixos.appimagekit```
+
 [AppImageHub](https://www.appimagehub.com) is a build and distribution service for AppImage applications.
 
 [AppImage Manager](https://github.com/AppImageCrafters/appimage-manager) is a package manager for AppImages.
@@ -248,6 +326,7 @@
 [AppImage Forum](https://discourse.appimage.org/)
 
  <img src="https://user-images.githubusercontent.com/45159366/106686382-0b505c80-657f-11eb-9d74-9a94ec0d0693.png">
+
 
 # Gaming
 
