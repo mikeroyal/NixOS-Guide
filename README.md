@@ -23,7 +23,7 @@
   
    - [NixOS Desktop](https://github.com/mikeroyal/NixOS-Guide#NixOS-Desktop)
      
-   - [Programming Languages with NixOS support](https://github.com/mikeroyal/NixOS-Guide#programming-languages)
+   - [Programming Languages with NixOS support](https://github.com/mikeroyal/NixOS-Guide#programming-languages-with-nixos-support)
     
      - [C](https://github.com/mikeroyal/NixOS-Guide#C)
      - [Python](https://github.com/mikeroyal/NixOS-Guide#python)
