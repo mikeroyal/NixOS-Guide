@@ -17,11 +17,23 @@
 
 1. [Getting Started](https://github.com/mikeroyal/NixOS-Guide#getting-started)
 
-     - [NixOS Developer Resources](https://github.com/mikeroyal/NixOS-Guide#NixOS-developer-resources)
+   - [NixOS Developer Resources](https://github.com/mikeroyal/NixOS-Guide#NixOS-developer-resources)
   
-     - [NixOS Tools & Modules](https://github.com/mikeroyal/NixOS-Guide#NixOS-Tools-and-Modules)
+   - [NixOS Tools & Modules](https://github.com/mikeroyal/NixOS-Guide#NixOS-Tools-and-Modules)
   
-     - [NixOS Desktop](https://github.com/mikeroyal/NixOS-Guide#NixOS-Desktop)
+   - [NixOS Desktop](https://github.com/mikeroyal/NixOS-Guide#NixOS-Desktop)
+     
+   - [Programming Languages with NixOS support](https://github.com/mikeroyal/NixOS-Guide#programming-languages)
+    
+     - [C](https://github.com/mikeroyal/NixOS-Guide#C)
+     - [Python](https://github.com/mikeroyal/NixOS-Guide#python)
+     - [Ruby](https://github.com/mikeroyal/NixOS-Guide#ruby)
+     - [Go](https://github.com/mikeroyal/NixOS-Guide#Go)
+     - [Rust](https://github.com/mikeroyal/NixOS-Guide#rust)
+     - [Scala](https://github.com/mikeroyal/NixOS-Guide#scala)
+     - [Haskell](https://github.com/mikeroyal/NixOS-Guide#haskell)
+     - [Node.js](https://github.com/mikeroyal/NixOS-Guide#nodejs)
+     - [PHP](https://github.com/mikeroyal/NixOS-Guide#php)
 
 2. [Getting Software](https://github.com/mikeroyal/NixOS-Guide#getting-software)
 
@@ -86,7 +98,7 @@
   NixOS Packages Search
 </p>
 
-### NixOS Developer Resources
+## NixOS Developer Resources
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
  - [NixOS Wiki](https://nixos.wiki/)
@@ -127,7 +139,7 @@
 
  - [Consider Donating to the NixoS Project](https://nixos.org/donate.html)
 
-#### YouTube videos on NixOS
+### YouTube videos on NixOS
 
  - [NixOS Is The Power User Distro (Now With An Easy Installer!) | DistroTube on YouTube](https://www.youtube.com/watch?v=ck4J2Faa7Fc)
 
@@ -139,7 +151,7 @@
 
  - [Nixpkgs - Python packaging, and development workflow. | Jon Ringer on YouTube](https://www.youtube.com/watch?v=jXd-hkP4xnU)
 
-### NixOS Tools and Modules
+## NixOS Tools and Modules
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
  - [Hydra](https://github.com/nixos/hydra) is Nix's official continuous integration and build system.
@@ -276,7 +288,7 @@
 
  - [Nix-alien](https://github.com/thiagokokada/nix-alien) is a tool to run unpatched binaries on Nix/NixOS easily.
 
-### NixOS Desktop
+## NixOS Desktop
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
  - [Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
@@ -296,6 +308,115 @@
   <br />
   NixOS with the Plasma Desktop
 </p>
+
+## Programming Languages with NixOS support
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+    
+###  C
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+  - [C - NixOS Wiki](https://nixos.wiki/wiki/C)
+ 
+  - [ccls](https://github.com/MaskRay/ccls)  is a C/C++/Objective-C language server.
+   
+### Python
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [Python - NixOS Wiki](https://nixos.wiki/wiki/Python)
+
+ - [Mach-nix](https://github.com/DavHau/mach-nix) is a tool to create highly reproducible python environments.
+ 
+ - [Poetry2nix](https://github.com/nix-community/poetry2nix) is a tool to build Python packages directly from [Poetry's](https://python-poetry.org/) `poetry.lock`. No conversion step needed.
+ 
+ - [Pypi2nix](https://github.com/nix-community/pypi2nix)  is a tool to generate Nix expressions for Python packages.
+
+### Ruby
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [Ruby - NixOS Wiki](https://nixos.wiki/wiki/Ruby)
+
+ - [Bundix](https://github.com/nix-community/bundix) is a tool that generates a Nix expression for your Bundler-managed application.
+ 
+### Go
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [Go - NixOS Wiki](https://nixos.wiki/wiki/Go)
+ 
+ - [Gomod2nix](https://github.com/tweag/gomod2nix) is a tool to convert applications using Go modules to Nix expressions.
+ 
+ - [Dep2nix](https://github.com/nixcloud/dep2nix) is a tool using golang/dep to create a deps.nix file for go projects to package them for nixpkgs. 
+ 
+ - [Vgo2nix](https://github.com/nix-community/vgo2nix) is a tool to Convert go.mod files to nixpkgs buildGoPackage compatible deps.nix files.
+
+### Rust
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+ 
+ - [Rust - NixOS Wiki](https://nixos.wiki/wiki/Rust)
+
+ - [Fenix](https://github.com/nix-community/fenix) is a Rust toolchains and Rust analyzer nightly for nix.
+ 
+ - [Naersk](https://github.com/nmattia/naersk) is a build to Rust packages directly from `Cargo.lock`. No conversion step needed.
+ 
+ - [Nix-cargo-integration](https://github.com/yusdacra/nix-cargo-integration) is a library that allows easy and effortless integration for Cargo projects.
+ 
+ - [Nixpkgs-mozilla](https://github.com/mozilla/nixpkgs-mozilla) is  Mozilla's overlay with Rust toolchains and Firefox.
+ 
+ - [Rust-nix-templater](https://github.com/yusdacra/rust-nix-templater) is a tool that generates Nix build and development files for Rust projects.
+ 
+ - [Rust-overlay](https://github.com/oxalica/rust-overlay) is a pure and reproducible nix overlay of binary distributed Rust toolchains.
+
+### Scala
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [Sbtix](https://gitlab.com/teozkr/Sbtix) isa tool that generates a Nix definition that represents your SBT project's dependencies. It then uses this to build a Maven repo containing the stuff your project needs, and feeds it back to your SBT build.
+ 
+ - [Sbt-derivation](https://github.com/zaninime/sbt-derivation) is a mkDerivation for sbt, similar to buildGoModule.
+ 
+ - [Sbt-nix.g8](https://github.com/gvolpe/sbt-nix.g8) is a [giter8](https://github.com/foundweekends/giter8) template for new Scala projects with Nix support.
+ 
+
+### Haskell
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+ 
+ - [Haskell - NixOS Wiki](https://nixos.wiki/wiki/Haskell)
+ 
+ - [Cabal2nix](https://github.com/NixOS/cabal2nix) is a tool that converts a Cabal file into a Nix build expression.
+ 
+ - [Haskell.nix](https://github.com/input-output-hk/haskell.nix) is an alternative Haskell Infrastructure for Nixpkgs.
+ 
+ - [Nix-haskell-mode](https://github.com/matthewbauer/nix-haskell-mode) is an automatic Haskell setup in Emacs.
+ 
+ - [Nixkell](https://github.com/pwm/nixkell) is a Haskell project template using Nix and direnv.
+ 
+ - [Stack2nix](https://github.com/input-output-hk/stack2nix) is a tool to generate nix expressions for Haskell projects.
+
+### Node.js
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [Node.js - NixOS Wiki](https://nixos.wiki/wiki/Node.js)
+ 
+ - [Napalm](https://github.com/nmattia/napalm) - Support for building npm packages in Nix with a lightweight npm registry.
+ 
+ - [Node2nix](https://github.com/svanderburg/node2nix) - Generate Nix expression from a `package.json` (or `package-lock.json`) (to be stored as files).
+ 
+ - [Npmlock2nix](https://github.com/tweag/npmlock2nix) - Generate Nix expressions from a `package-lock.json` (in-memory), primarily for web projects.
+ 
+ - [Yarn2nix](https://github.com/nix-community/yarn2nix) - Generate Nix expressions from a `yarn.lock` file.
+
+### PHP
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+ 
+ - [PHP - NixOS Wiki](https://nixos.wiki/wiki/PHP)
+ 
+ - [Composer2nix](https://github.com/svanderburg/composer2nix) is a tool to generate Nix expressions to build composer packages.
+ 
+ - [Composer-plugin-nixify](https://github.com/stephank/composer-plugin-nixify) is a composer plugin to help with Nix packaging.
+ 
+ - [Composition-c4](https://github.com/fossar/composition-c4) is support for building composer packages from a `composer.lock` (using IFD).
+ 
+ - [Nix-phps](https://github.com/fossar/nix-phps) is a  Flake containing old and unmaintained PHP versions (intended for CI use).
+ 
+ - [Nix-shell](https://github.com/loophp/nix-shell/) is a Nix shells for PHP development.
 
 # Getting Software
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
