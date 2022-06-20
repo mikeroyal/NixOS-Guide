@@ -34,6 +34,15 @@
      - [Haskell](https://github.com/mikeroyal/NixOS-Guide#haskell)
      - [Node.js](https://github.com/mikeroyal/NixOS-Guide#nodejs)
      - [PHP](https://github.com/mikeroyal/NixOS-Guide#php)
+     - [Perl](https://github.com/mikeroyal/NixOS-Guide#Perl)
+     - [Java](https://github.com/mikeroyal/NixOS-Guide#Java)
+     - [Lua](https://github.com/mikeroyal/NixOS-Guide#Lua)
+     - [LLVM](https://github.com/mikeroyal/NixOS-Guide#LLVM)
+     - [Julia](https://github.com/mikeroyal/NixOS-Guide#Julia)
+     - [R](https://github.com/mikeroyal/NixOS-Guide#R)
+     - [Arduino](https://github.com/mikeroyal/NixOS-Guide#Arduino)
+     - [Crystal](https://github.com/mikeroyal/NixOS-Guide#Crystal)
+     - [Elm](https://github.com/mikeroyal/NixOS-Guide#Elm)
 
 2. [Getting Software](https://github.com/mikeroyal/NixOS-Guide#getting-software)
 
@@ -417,6 +426,70 @@
  - [Nix-phps](https://github.com/fossar/nix-phps) is a  Flake containing old and unmaintained PHP versions (intended for CI use).
  
  - [Nix-shell](https://github.com/loophp/nix-shell/) is a Nix shells for PHP development.
+ 
+### Perl
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [Perl- NixOS Wiki](https://nixos.wiki/wiki/Perl)
+ 
+ - [Perl packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=perl)
+ 
+### Java
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [Java - NixOS Wiki](https://nixos.wiki/wiki/Java)
+ 
+ - [Java Packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=java)
+ 
+### Lua
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [Lua - NixOS Wiki](https://nixos.wiki/wiki/Lua)
+ 
+ - [Lua packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=lua)
+ 
+### LLVM
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [LLVM - NixOS Wiki](https://nixos.wiki/wiki/LLVM)
+ 
+ - [LLVM packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=llvm)
+ 
+### Julia
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [Julia - NixOS Wiki](https://nixos.wiki/wiki/Julia)
+ 
+ - [Julia packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=julia)
+ 
+### R 
+ [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+ 
+ - [R - NixOS Wiki](https://nixos.org/manual/nixpkgs/stable/#r)
+ 
+ - [R packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=r)
+ 
+### Arduino
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [nixduino](https://github.com/boredom101/nixduino) is a Nix-based tool to help build Arduino sketches.
+ 
+ - [Arduino packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=Arduino)
+
+### Crystal
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [crystal2nix](https://github.com/nix-community/crystal2nix) is a tool to convert `shard.lock` into Nix expressions.
+ 
+ - [Crystal packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=crystal)
+
+### Elm
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [elm2nix](https://github.com/hercules-ci/elm2nix) is a tool to convert `elm.json` into Nix expressions.
+ 
+ - [Elm packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=elm)
+  
 
 # Getting Software
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
