@@ -547,6 +547,14 @@
 
 [NUR(Nix User Repositories)](https://github.com/nix-community/NUR/) is the mother of all overlays, allowing access to user repositories and installing packages via attributes.
 
+[NixOS-GUI](https://github.com/Celestialme/Nixos-Gui) is a GUI for Nixos package manager. It it developed and maintained by [Celestialme](https://github.com/Celestialme/).
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/175184677-c985b399-da35-4139-8ac2-1a8c3b0f254a.png">
+  <br />
+  NixOS GUI tool
+</p>
+
 **Using Flatpaks on NixOS makes installing/updating applications a lot easier especially if some software is proprietary.**
 
 ## Flatpaks
