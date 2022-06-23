@@ -17,13 +17,13 @@
 
 1. [Getting Started](https://github.com/mikeroyal/NixOS-Guide#getting-started)
 
-   - [NixOS Developer Resources](https://github.com/mikeroyal/NixOS-Guide#NixOS-developer-resources)
+   - [NixOS Developer Resources](https://github.com/mikeroyal/NixOS-Guide#NixOS-developer-resources) 
   
    - [NixOS Tools & Modules](https://github.com/mikeroyal/NixOS-Guide#NixOS-Tools-and-Modules)
   
    - [NixOS Desktop](https://github.com/mikeroyal/NixOS-Guide#NixOS-Desktop)
      
-   - [Programming Languages with NixOS support](https://github.com/mikeroyal/NixOS-Guide#programming-languages-with-nixos-support)
+   - [Programming Languages & Frameworks with NixOS support](https://github.com/mikeroyal/NixOS-Guide#programming-languages--with-nixos-support)
     
      - [C](https://github.com/mikeroyal/NixOS-Guide#C)
      - [Python](https://github.com/mikeroyal/NixOS-Guide#python)
@@ -43,6 +43,11 @@
      - [Arduino](https://github.com/mikeroyal/NixOS-Guide#Arduino)
      - [Crystal](https://github.com/mikeroyal/NixOS-Guide#Crystal)
      - [Elm](https://github.com/mikeroyal/NixOS-Guide#Elm)
+     - [Elixir](https://github.com/mikeroyal/NixOS-Guide#elixir)
+     - [Erlang](https://github.com/mikeroyal/NixOS-Guide#erlang)
+     - [DotNet](https://github.com/mikeroyal/NixOS-Guide#dotnet)
+     - [CUDA](https://github.com/mikeroyal/NixOS-Guide#cuda)
+     - [Qt](https://github.com/mikeroyal/NixOS-Guide#qt)
 
 2. [Getting Software](https://github.com/mikeroyal/NixOS-Guide#getting-software)
 
@@ -127,6 +132,8 @@
  - [nix.dev guide for developers](https://nix.dev/)
  
  - [Hound - search across all/selected Nix-related repositories.](https://search.nix.gsc.io) 
+ 
+ - [Nix(A One Pager) - A one page introduction to Nix, the language](https://github.com/tazjin/nix-1p) 
  
  - [Nix Shorts](https://github.com/justinwoo/nix-shorts/)
 
@@ -383,7 +390,6 @@
  
  - [Sbt-nix.g8](https://github.com/gvolpe/sbt-nix.g8) is a [giter8](https://github.com/foundweekends/giter8) template for new Scala projects with Nix support.
  
-
 ### Haskell
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
  
@@ -489,7 +495,42 @@
  - [elm2nix](https://github.com/hercules-ci/elm2nix) is a tool to convert `elm.json` into Nix expressions.
  
  - [Elm packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=elm)
-  
+
+### Elixir
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [BEAM Languages (Erlang, Elixir & LFE)](https://nixos.org/manual/nixpkgs/stable/#how-to-install-beam-packages)
+ 
+ - [Elixir packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=elixir)
+
+### Erlang
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [BEAM Languages (Erlang, Elixir & LFE)](https://nixos.org/manual/nixpkgs/stable/#how-to-install-beam-packages)
+
+ - [NixOS packages for Erlang](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=erlang)
+ 
+ ### DotNet
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [ DotNet - NixOS Wiki](https://nixos.wiki/wiki/DotNET)
+ 
+ - [NixOS packages for DotNet](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=dotnet)
+
+### CUDA
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [CUDA - NixOS Wiki](https://nixos.wiki/wiki/CUDA)
+ 
+ - [NixOS packages for CUDA](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=cuda)
+
+### Qt
+[Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+ - [Qt - NixOS Wiki](https://nixos.wiki/wiki/Qt)
+ 
+ - [NixOS packages for Qt](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=qt)
+ 
 
 # Getting Software
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
@@ -504,6 +545,7 @@
   NixOS Packages Search
 </p>
 
+[NUR(Nix User Repositories)](https://github.com/nix-community/NUR/) is the mother of all overlays, allowing access to user repositories and installing packages via attributes.
 
 **Using Flatpaks on NixOS makes installing/updating applications a lot easier especially if some software is proprietary.**
 
@@ -915,7 +957,7 @@ Local virtual devices with high performances.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/105645195-db9ea780-5e4e-11eb-8357-fb38b2f06d74.png">
 
-**Building Highly-Availability(HA) Clusters with kubeadm. Source: [Kubernetes.io](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/), 2020**
+**Building Highly-Availability(HA) Clusters with kubeadm. Source: [Kubernetes.io](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/)**
 </p>
 
 [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine/) is a managed, production-ready environment for running containerized applications.
