@@ -457,6 +457,8 @@
  
  - [Java Packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=java)
  
+  - [mvn2nix](https://github.com/fzakaria/mvn2nix) is a tool to easily package your Maven Java application with the Nix package manager.
+ 
 ### Lua
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
