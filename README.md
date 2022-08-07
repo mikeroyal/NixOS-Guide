@@ -31,6 +31,7 @@
      - [Go](https://github.com/mikeroyal/NixOS-Guide#Go)
      - [Rust](https://github.com/mikeroyal/NixOS-Guide#rust)
      - [Scala](https://github.com/mikeroyal/NixOS-Guide#scala)
+     - [Clojure](https://github.com/mikeroyal/NixOS-Guide#Clojure)
      - [Haskell](https://github.com/mikeroyal/NixOS-Guide#haskell)
      - [Node.js](https://github.com/mikeroyal/NixOS-Guide#nodejs)
      - [PHP](https://github.com/mikeroyal/NixOS-Guide#php)
@@ -399,6 +400,17 @@
  - [Sbt-derivation](https://github.com/zaninime/sbt-derivation) is a mkDerivation for sbt, similar to buildGoModule.
  
  - [Sbt-nix.g8](https://github.com/gvolpe/sbt-nix.g8) is a [giter8](https://github.com/foundweekends/giter8) template for new Scala projects with Nix support.
+
+### Clojure
+ [Back to the Top](#table-of-contents)
+ 
+ - [Clojure Packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=clojure)
+  
+ - [Clj-nix](https://github.com/jlesquembre/clj-nix) is Nix helpers for Clojure projects.
+ 
+ - [Clj2nix](https://github.com/hlolli/clj2nix) is a tool that converts deps.edn to a nix expression.
+ 
+ - [Clojure-nix-locker](https://github.com/bevuta/clojure-nix-locker) is a simple and flexible tool to build clojure projects with Nix.
  
 ### Haskell
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
