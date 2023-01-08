@@ -113,6 +113,14 @@
   NixOS Packages Search
 </p>
 
+[Nix Software Center](https://github.com/vlinkz/nix-software-center) is a simple gtk4/libadwaita software center to easily install and manage nix packages.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/211189056-cd719480-ce81-466f-9c8d-562b7296db01.png">
+  <br />
+  NixOS Software Center
+</p>
+
 ## NixOS Developer Resources
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
