@@ -235,8 +235,6 @@
 
  - [Nixcloud-webservices](https://github.com/nixcloud/nixcloud-webservices) is a set of nixpkgs extension for web-related technologies.
 
- - [Krops](https://cgit.krebsco.de/krops/about/) is a stateless alternative to nixops with improved secret management.
-
  - [Mach-nix](https://github.com/DavHau/mach-nix) is a tool that makes it easy to create and share reproducible python environments or packages. Existing tools for python package management often suffer from reproducibility and complexity issues, requiring a multitude of tools and additional virtualization layers to work sufficiently. 
  
   - [Digga](https://github.com/divnix/digga) is a flake utility library that helps you declaratively craft and manage all three layers of your system environment within a single nix flakes repository:
