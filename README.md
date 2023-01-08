@@ -312,6 +312,8 @@
  - [Nixpkgs-hammering](https://github.com/jtojnar/nixpkgs-hammering) is a nixpkg to beat your package expressions into a shape.
 
  - [Nix-alien](https://github.com/thiagokokada/nix-alien) is a tool to run unpatched binaries on Nix/NixOS easily.
+ 
+ - [Disko](https://github.com/nix-community/disko) is a declarative disk partitioning tool using Nix. 
 
 ## NixOS Desktop
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
