@@ -145,6 +145,8 @@
  - [Nix(A One Pager) - A one page introduction to Nix, the language](https://github.com/tazjin/nix-1p) 
  
  - [Nix Shorts](https://github.com/justinwoo/nix-shorts/)
+ 
+ - [How to Learn Nix tutorials by Ian Henry](https://ianthehenry.com/posts/how-to-learn-nix/)
 
  - [Getting started with Home Manager for Nix](https://ghedam.at/24353/tutorial-getting-started-with-home-manager-for-nix)
 
