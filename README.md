@@ -324,6 +324,8 @@
  - [Nix-alien](https://github.com/thiagokokada/nix-alien) is a tool to run unpatched binaries on Nix/NixOS easily.
  
  - [Disko](https://github.com/nix-community/disko) is a declarative disk partitioning tool using Nix. 
+ 
+ - [NixOS on WSL](https://github.com/nix-community/NixOS-WSL) is a minimal root filesystem for running NixOS on WSL. It can be used with DistroLauncher as ```install.tar.gz``` or as input to ```wsl --import --version 2```.
 
 ## NixOS Desktop
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
