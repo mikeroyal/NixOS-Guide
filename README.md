@@ -326,6 +326,12 @@
  - [Disko](https://github.com/nix-community/disko) is a declarative disk partitioning tool using Nix. 
  
  - [NixOS on WSL](https://github.com/nix-community/NixOS-WSL) is a minimal root filesystem for running NixOS on WSL. It can be used with DistroLauncher as ```install.tar.gz``` or as input to ```wsl --import --version 2```.
+ 
+ - [Appvm](https://github.com/jollheef/appvm) is a simple application VMs (hypervisor-based sandbox) based on Nix package manager. It uses one read-only /nix directory for all appvms. So creating a new appvm (but not first) is just about one minute.
+
+ - [Deadnix](https://github.com/astro/deadnix) is a tool that scan ```.nix``` files for dead code (unused variable bindings).
+
+ - [nix2container](https://github.com/nlewo/nix2container) isa tool that provides an efficient container development workflow with images built by Nix: it doesn't write tarballs to the Nix store and allows to skip already pushed layers (without having to rebuild them).
 
 ## NixOS Desktop
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
