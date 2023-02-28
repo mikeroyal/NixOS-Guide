@@ -121,6 +121,20 @@
   NixOS Software Center
 </p>
 
+[Determinate Nix Installer](https://github.com/DeterminateSystems/nix-installer) is an opinionated alternative to the official [Nix install scripts](https://nixos.org/download.html).
+
+**The nix-installer tool is ready to use in a number of environments:**
+
+|Platform |	Multi User |	root only |	Maturity|
+|------|------|-------|------|
+|Linux (x86_64 & aarch64) |✓ (via [systemd](https://systemd.io/)) |	✓ |	Stable|
+|MacOS (x86_64 & aarch64) |	✓ |		|Stable (See note)|
+|Valve Steam Deck (SteamOS)| 	✓ |		|Stable|
+|WSL2 (x86_64 & aarch64) |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stable|
+Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stable|
+|Docker Containers 	|	|✓ |	Stable|
+|Linux (i686) |	✓ (via [systemd](https://systemd.io/)) |	✓ 	|Unstable|
+
 ## NixOS Developer Resources
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
