@@ -135,6 +135,12 @@
  - [Home Manager - NixOS Wiki](https://nixos.wiki/wiki/Home_Manager)
  
  - [What Is Nix — Developer Tooling | Shopify Engineering](https://shopify.engineering/what-is-nix)
+ 
+ - [NixOS configurations collection](https://nixos.wiki/wiki/Configuration_Collection)
+ 
+ - [Install and Configure NixOS on a Linode](https://www.linode.com/docs/guides/install-nixos-on-linode/)
+ 
+ - [Zero to Nix from Determinate Systems](https://zero-to-nix.com/start/install)
 
  - [Cheatsheet - NixOS Wiki](https://nixos.wiki/index.php?title=Cheatsheet&useskin=vector)
  
