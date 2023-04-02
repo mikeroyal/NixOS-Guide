@@ -4,6 +4,9 @@
    NixOS Guide
 </h1>
 
+<a href="https://github.com/mikeroyal?tab=followers">
+         <img alt="followers" title="Follow for Updates" src="https://custom-icon-badges.demolab.com/github/followers/mikeroyal?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a> 
+
 #### A guide on setting up your NixOS Desktop with all the essential Applications, Tools, and Games to make your experience with NixOS great! This may not be perfect guide for everyone but I feel there is at least one or more perfect solutions for New and Advanced NixOS users.
 
 **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
