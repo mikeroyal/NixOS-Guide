@@ -28,30 +28,32 @@
      
    - [Programming Languages & Frameworks with NixOS support](https://github.com/mikeroyal/NixOS-Guide#programming-languages--with-nixos-support)
     
-     - [C](https://github.com/mikeroyal/NixOS-Guide#C)
-     - [Python](https://github.com/mikeroyal/NixOS-Guide#python)
-     - [Ruby](https://github.com/mikeroyal/NixOS-Guide#ruby)
-     - [Go](https://github.com/mikeroyal/NixOS-Guide#Go)
-     - [Rust](https://github.com/mikeroyal/NixOS-Guide#rust)
-     - [Scala](https://github.com/mikeroyal/NixOS-Guide#scala)
-     - [Clojure](https://github.com/mikeroyal/NixOS-Guide#Clojure)
-     - [Haskell](https://github.com/mikeroyal/NixOS-Guide#haskell)
-     - [Node.js](https://github.com/mikeroyal/NixOS-Guide#nodejs)
-     - [PHP](https://github.com/mikeroyal/NixOS-Guide#php)
-     - [Perl](https://github.com/mikeroyal/NixOS-Guide#Perl)
-     - [Java](https://github.com/mikeroyal/NixOS-Guide#Java)
-     - [Lua](https://github.com/mikeroyal/NixOS-Guide#Lua)
-     - [LLVM](https://github.com/mikeroyal/NixOS-Guide#LLVM)
-     - [Julia](https://github.com/mikeroyal/NixOS-Guide#Julia)
-     - [R](https://github.com/mikeroyal/NixOS-Guide#R)
-     - [Arduino](https://github.com/mikeroyal/NixOS-Guide#Arduino)
-     - [Crystal](https://github.com/mikeroyal/NixOS-Guide#Crystal)
-     - [Elm](https://github.com/mikeroyal/NixOS-Guide#Elm)
-     - [Elixir](https://github.com/mikeroyal/NixOS-Guide#elixir)
-     - [Erlang](https://github.com/mikeroyal/NixOS-Guide#erlang)
-     - [DotNet](https://github.com/mikeroyal/NixOS-Guide#dotnet)
-     - [CUDA](https://github.com/mikeroyal/NixOS-Guide#cuda)
-     - [Qt](https://github.com/mikeroyal/NixOS-Guide#qt)
+     - [C](#C)
+     - [Python](#python)
+     - [Ruby](#ruby)
+     - [Go](h#Go)
+     - [Rust](#rust)
+     - [Scala](#scala)
+     - [Clojure](#Clojure)
+     - [Haskell](#haskell)
+     - [Node.js](#nodejs)
+     - [PHP](#php)
+     - [Perl](#Perl)
+     - [Java](#Java)
+     - [Lua](#Lua)
+     - [LLVM](#LLVM)
+     - [Julia](#Julia)
+     - [R](#R)
+     - [Arduino](#Arduino)
+     - [Crystal](#Crystal)
+     - [Lisp](#lisp)
+     - [Nim](#nim)
+     - [Elm](#Elm)
+     - [Elixir](#elixir)
+     - [Erlang](#erlang)
+     - [DotNet](#dotnet)
+     - [CUDA](#cuda)
+     - [Qt](#qt)
 
 2. [Getting Software](https://github.com/mikeroyal/NixOS-Guide#getting-software)
 
@@ -553,6 +555,27 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
  - [crystal2nix](https://github.com/nix-community/crystal2nix) is a tool to convert `shard.lock` into Nix expressions.
  
  - [Crystal packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=crystal)
+ 
+### Lisp
+[Back to the Top](#table-of-contents)
+
+ - [Lisp packages for NixOS](https://github.com/NixOS/nixpkgs/tree/nixos-22.05/pkgs/development/lisp-modules)
+
+ - [Emacs for NixOS](https://nixos.wiki/wiki/Emacs) is an interactive graphical emacs lisp interpreter that comes with many applications, but is primarily used as a text and code editor. 
+
+ - [Emacs overlay for Nixpkgs](https://github.com/nix-community/emacs-overlay) is a bleeding edge emacs overlay for Nixpkgs.
+
+ - [nix-mode](https://github.com/NixOS/nix-mode) is a An Emacs major mode for editing Nix expressions. 
+
+
+### Nim
+[Back to the Top](#table-of-contents)
+
+ - [Nim](https://nim-lang.org/) is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula. 
+
+ - [Nim packages for NixOS](https://github.com/NixOS/nixpkgs/tree/nixos-22.05/pkgs/development/nim-packages)
+
+ - [Nim Language Server](https://github.com/nim-lang/langserver) is a Language Server, or nimlangserver, is a language server for Nim.
 
 ### Elm
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
