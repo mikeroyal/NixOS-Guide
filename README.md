@@ -228,6 +228,8 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
  - [NixVim](https://github.com/pta2002/nixvim) is a NeoVim distribution built with Nix modules and Nixpkgs.
 
  - [Simple Nixos Mailserver](https://gitlab.com/simple-nixos-mailserver/nixos-mailserver) is a complete mailserver, managed with NixOS modules.
+   
+ - [NixOS Anywhere](https://numtide.github.io/nixos-anywhere/) is a tool that let's you install NixoS everywhere via ssh on a target machine running x86_64 Linux with [kexec](https://man7.org/linux/man-pages/man8/kexec.8.html) support. 
 
  - [Stylix](https://github.com/danth/stylix) is a system-wide colorscheming and typography for NixOS.
 
