@@ -656,7 +656,7 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 
 [FlatHub Forum](https://discourse.flathub.org/)
 
- <img src="https://user-images.githubusercontent.com/45159366/106686365-055a7b80-657f-11eb-9b58-1de28abe2e5b.png">
+ <img src="https://github.com/mikeroyal/NixOS-Guide/assets/45159366/3dbf5f71-91c3-4e64-9ad0-eba5b88b4b60">
 
 ## AppImages
 
