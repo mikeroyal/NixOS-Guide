@@ -362,6 +362,8 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
  - [Deadnix](https://github.com/astro/deadnix) is a tool that scan ```.nix``` files for dead code (unused variable bindings).
 
  - [nix2container](https://github.com/nlewo/nix2container) isa tool that provides an efficient container development workflow with images built by Nix: it doesn't write tarballs to the Nix store and allows to skip already pushed layers (without having to rebuild them).
+   
+ - [nixos-mailserver](https://gitlab.com/simple-nixos-mailserver/nixos-mailserver) is a complete and Simple Nixos Mailserver.
 
 ## NixOS Desktop
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
