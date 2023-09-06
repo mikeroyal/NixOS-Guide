@@ -23,12 +23,10 @@
 
 1. [Getting Started](https://github.com/mikeroyal/NixOS-Guide#getting-started)
 
-   - [NixOS Developer Resources](https://github.com/mikeroyal/NixOS-Guide#NixOS-developer-resources) 
-  
+   - [NixOS Developer Resources](https://github.com/mikeroyal/NixOS-Guide#NixOS-developer-resources)
+   - [NixOS YouTube Tutorials](#youtube-tutorials)
    - [NixOS Tools & Modules](https://github.com/mikeroyal/NixOS-Guide#NixOS-Tools-and-Modules)
-  
-   - [NixOS Desktop](https://github.com/mikeroyal/NixOS-Guide#NixOS-Desktop)
-     
+   - [NixOS Desktop](https://github.com/mikeroyal/NixOS-Guide#NixOS-Desktop)   
    - [Programming Languages & Frameworks with NixOS support](https://github.com/mikeroyal/NixOS-Guide#programming-languages--with-nixos-support)
     
      - [C](#C)
@@ -194,17 +192,16 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 
  - [Consider Donating to the NixoS Project](https://nixos.org/donate.html)
 
-### YouTube videos on NixOS
+### YouTube Tutorials
 
- - [NixOS Is The Power User Distro (Now With An Easy Installer!) | DistroTube on YouTube](https://www.youtube.com/watch?v=ck4J2Faa7Fc)
+[Back to the Top](#table-of-contents)
 
- - [NixOS | Installation and First Impressions | Tyler's Tech on YouTube](https://www.youtube.com/watch?v=IdoCOqkAexY)
-
- - [NixOS Setup Guide - Configuration/Home-Manager/Flakes | Matthias Benaets on YouTube](https://www.youtube.com/watch?v=AGVXJ-TIv3Y)
-
- - [NixOS: How it works and how to install it! | DorianDotSlash on YouTube](https://www.youtube.com/watch?v=oPymb2-IXbg)
-
- - [Nixpkgs - Python packaging, and development workflow. | Jon Ringer on YouTube](https://www.youtube.com/watch?v=jXd-hkP4xnU)
+[![NixOS is Mindblowing](https://ytcards.demolab.com/?id=fuWPuJZ9NcU&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "NixOS is Mindblowing")](https://www.youtube.com/watch?v=fuWPuJZ9NcU)
+[![NixOS Is The Power User Distro (Now With An Easy Installer!)](https://ytcards.demolab.com/?id=ck4J2Faa7Fc&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "NixOS Is The Power User Distro (Now With An Easy Installer!)")](https://www.youtube.com/watch?v=ck4J2Faa7Fc) 
+[![NixOS Setup Guide - Configuration / Home-Manager / Flakes](https://ytcards.demolab.com/?id=AGVXJ-TIv3Y&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "NixOS Setup Guide - Configuration / Home-Manager / Flakes")](https://www.youtube.com/watch?v=AGVXJ-TIv3Y)
+[![NixOS Intro - Installation and basic usage](https://ytcards.demolab.com/?id=9fWrxmEYGAs&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "NixOS Intro - Installation and basic usage")](https://www.youtube.com/watch?v=9fWrxmEYGAs)
+[![Nixpkgs - Python packaging, and development workflow.](https://ytcards.demolab.com/?id=jXd-hkP4xnU&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Nixpkgs - Python packaging, and development workflow.")](https://www.youtube.com/watch?v=jXd-hkP4xnU)
+[![NixOS: How it works and how to install it!](https://ytcards.demolab.com/?id=oPymb2-IXbg&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "NixOS: How it works and how to install it!")](https://www.youtube.com/watch?v=oPymb2-IXbg)  
 
 ## NixOS Tools and Modules
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
