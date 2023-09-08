@@ -238,6 +238,8 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 
  - [Simple Nixos Mailserver](https://gitlab.com/simple-nixos-mailserver/nixos-mailserver) is a complete mailserver, managed with NixOS modules.
    
+ - [Nix Flake Checker](https://github.com/DeterminateSystems/flake-checker) is a tool from Determinate Systems that performs "health" checks on the flake.lock files in your flake-powered Nix projects. Its goal is to help your Nix projects stay on recent and supported versions of Nixpkgs.
+   
  - [NixOS Anywhere](https://numtide.github.io/nixos-anywhere/) is a tool that let's you install NixoS everywhere via ssh on a target machine running x86_64 Linux with [kexec](https://man7.org/linux/man-pages/man8/kexec.8.html) support. 
 
  - [Stylix](https://github.com/danth/stylix) is a system-wide colorscheming and typography for NixOS.
