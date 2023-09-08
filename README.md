@@ -127,6 +127,18 @@
   NixOS Software Center
 </p>
 
+[FlakeHub](https://flakehub.com/new) is a platform developed by [Determinate Systems](https://determinate.systems/) for discovering and publishing [Nix flakes](https://zero-to-nix.com/concepts/flakes). [FlakeHub](https://determinate.systems/posts/introducing-flakehub) provides the Nix ecosystem with a variety of new capabilities:
+
+   * The ability to explore the Nix flake landscape.
+   * Semantic versioning for flakes, including version modifiers like **~ (flexible patch)** and **= (exact match)**.
+   * Automated flake publishing with GitHub Actions.
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/NixOS-Guide/assets/45159366/b2b7526d-2192-4ee0-990c-d9733c3a9a20">
+</br>
+FlakeHub
+</p>
+
 [Determinate Nix Installer](https://github.com/DeterminateSystems/nix-installer) is an opinionated alternative to the official [Nix install scripts](https://nixos.org/download.html).
 
 **The nix-installer tool is ready to use in a number of environments:**
