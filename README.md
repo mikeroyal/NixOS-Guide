@@ -287,12 +287,6 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
  - [Nixcloud-webservices](https://github.com/nixcloud/nixcloud-webservices) is a set of nixpkgs extension for web-related technologies.
 
  - [Mach-nix](https://github.com/DavHau/mach-nix) is a tool that makes it easy to create and share reproducible python environments or packages. Existing tools for python package management often suffer from reproducibility and complexity issues, requiring a multitude of tools and additional virtualization layers to work sufficiently. 
- 
-  - [Digga](https://github.com/divnix/digga) is a flake utility library that helps you declaratively craft and manage all three layers of your system environment within a single nix flakes repository:
-
-    * Development shells (via numtide/devshell).
-    * Home environments (via nix-community/home-manager).
-    * Host configurations (via NixOS/nixpkgs/nixos).
 
  - [Impermanence](https://github.com/nix-community/impermanence) is a set of modules to help you handle persistent state on systems with ephemeral root storage.
  
