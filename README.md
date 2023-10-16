@@ -72,7 +72,7 @@
 
 4. [Setting up a macOS Workspace](https://github.com/mikeroyal/NixOS-Guide#setting-up-a-macos-workspace)
 
-5. [Setting up a Windows 10 Workspace](https://github.com/mikeroyal/NixOS-Guide#setting-up-a-windows-10-workspace)
+5. [Setting up a Windows 11 Workspace](https://github.com/mikeroyal/NixOS-Guide#setting-up-a-windows-11-workspace)
 
 6. [Using Android and Android Apps on Linux](https://github.com/mikeroyal/NixOS-Guide#using-android-and-android-apps-on-linux)
 
@@ -915,7 +915,7 @@ I recommend using Flatpaks on NixOS, which makes installing/updating application
 
  <img src="https://user-images.githubusercontent.com/45159366/107092246-15a96b00-67b8-11eb-91fb-27494c7f1d4f.jpg">
 
-# Setting up a Windows 10 workspace
+# Setting up a Windows 11 workspace
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
 **REQUIREMENTS**
@@ -931,13 +931,16 @@ I recommend using Flatpaks on NixOS, which makes installing/updating application
 
  <img src="https://user-images.githubusercontent.com/45159366/107092256-1cd07900-67b8-11eb-9ae9-f389045dad26.png">
  <img src="https://user-images.githubusercontent.com/45159366/107093639-72a62080-67ba-11eb-8d88-477929a5516b.png">
-
- [OpenCore for Windows 10](https://dortania.github.io/OpenCore-Install-Guide/)
-
- <img src="https://user-images.githubusercontent.com/45159366/107092270-222dc380-67b8-11eb-82cc-d41e9e8a39e0.png">
+ 
 
 # Using Android and Android Apps on Linux
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
+
+[Waydroid](https://github.com/waydroid/waydroid) is a container-based approach to boot a full Android system on a regular Linux system. The Android runtime environment ships with a minimal customized Android system image based on LineageOS. The image is currently based on Android 10.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/171924198-0d440de1-9ff7-4e37-b6c3-f7e42c266530.png">
+</p>
 
 [Android Studio](https://developer.android.com/studio/) is the development suite for Google's Android Operating System(OS). It's built on [JetBrains IntelliJ IDEA](https://www.jetbrains.com/idea/) software and designed specifically for Android development. It is available for download on Windows, macOS and Linux.
 
@@ -949,12 +952,6 @@ I recommend using Flatpaks on NixOS, which makes installing/updating application
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/108637365-2c4df400-743f-11eb-8265-c07faab3523f.png">
-</p>
-
-[LineageOS](https://lineageos.org/) is a free and open-source operating system for various devices, based on the Android mobile platform.
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/108647222-f0ca1e80-746c-11eb-8e55-0e9808bb24fc.png">
 </p>
 
 [Anbox](https://anbox.io/) is an application that provides a container-based approach to boot a full Android system on a regular GNU/Linux system like Ubuntu, Debian Fedora, and openSUSE.
@@ -1067,6 +1064,12 @@ Local virtual devices with high performances.
 
 **Building Highly-Availability(HA) Clusters with kubeadm. Source: [Kubernetes.io](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/)**
 </p>
+
+**Nix Packages for Kubernetes**
+   - [kubenix](https://github.com/xtruder/kubenix) - Kubernetes resource builder written in Nix.
+   - [nix-kubernetes](https://github.com/xtruder/nix-kubernetes) - Kubernetes deployment manager written in nix.
+
+## Kubernetes Tools
 
 [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine/) is a managed, production-ready environment for running containerized applications.
 
