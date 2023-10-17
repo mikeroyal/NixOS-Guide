@@ -373,11 +373,24 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 ## NixOS Desktop
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
- - [Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
 
- - [nixos-generators](https://github.com/nix-community/nixos-generators) is a NixOS config and build multiple different images types including VirtualBox VMs, Azure images, and installation ISOs.
- 
+### Creating a NixOS installation ISO
+
+ - [nixos-generators](https://github.com/nix-community/nixos-generators) is a NixOS config and build multiple different images types including VirtualBox VMs, Azure images, and installation ISOs. 
  - [nixos-up](https://github.com/samuela/nixos-up) is a super easy NixOS installer that can be used from the installation ISO.
+
+### Package maintenance for NixOS Desktop
+  
+  -  [nix-upgrade-scripts](https://github.com/peterhoeg/nix-upgrade-scripts) - Tools for Nixpkgs maintainers to upgrade packages.
+  -  [nixpkgs-review](https://github.com/Mic92/nixpkgs-review) - Review nixpkgs pull requests.
+   
+   
+### Search for Packages on NixOS Desktop
+
+   - [nix-index](https://github.com/bennofs/nix-index) - Quickly locate nix packages with specific files.
+   - [nix-du](https://github.com/symphorien/nix-du) - Find which gc-roots take disk space in a nix store.
+   - [nix-info](https://github.com/nix-hackers/nix-info) - Homebrew info querying for Nix.
+   - [userscan](https://github.com/flyingcircusio/userscan) - Scans directories containing manually compiled programs and registers them with the Nix garbage collector.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/173939768-31847173-88ab-45f0-8501-0980d1a2a29e.png">
