@@ -382,6 +382,7 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 
  - [nixos-generators](https://github.com/nix-community/nixos-generators) is a NixOS config and build multiple different images types including VirtualBox VMs, Azure images, and installation ISOs. 
  - [nixos-up](https://github.com/samuela/nixos-up) is a super easy NixOS installer that can be used from the installation ISO.
+ - [NixOS Anywhere](https://numtide.github.io/nixos-anywhere/) is a tool that let's you install NixoS everywhere via ssh on a target machine running x86_64 Linux with [kexec](https://man7.org/linux/man-pages/man8/kexec.8.html) support. If you're installing NixOS, the nixos-anywhere (formerly known as nixos-remote) tool allows you to pre-configure the whole process.
 
 ### Package maintenance for NixOS Desktop
   
