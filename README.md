@@ -203,6 +203,10 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
  - [NixOS Governance](https://nixos.org/governance.html)
 
  - [Consider Donating to the NixoS Project](https://nixos.org/donate.html)
+ 
+ - [NixOS & Flakes Book](https://github.com/ryan4yin/nixos-and-flakes-book)
+ 
+ - [Managing your NixOS configuration with Flakes and Home Manager!](https://josiahalenbrown.substack.com/p/managing-your-nixos-configuration)
 
 ### YouTube Tutorials
 
