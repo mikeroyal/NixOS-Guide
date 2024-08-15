@@ -477,6 +477,8 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
  
  - [Sbt-nix.g8](https://github.com/gvolpe/sbt-nix.g8) is a [giter8](https://github.com/foundweekends/giter8) template for new Scala projects with Nix support.
 
+ - [Scala-seed](https://github.com/DevInsideYou/scala-seed)
+
 ### Clojure
  [Back to the Top](#table-of-contents)
  
