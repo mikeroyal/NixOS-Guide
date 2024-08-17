@@ -224,9 +224,7 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 
  - [Hydra](https://github.com/nixos/hydra) is Nix's official continuous integration and build system.
 
- - [Kubenix](https://github.com/xtruder/kubenix) is a Kubernetes resource builder written in Nix.
-
- - [Nix-kubernetes](https://github.com/xtruder/nix-kubernetes) is a Kubernetes deployment manager written in nix.
+ - [Kubenix](https://github.com/hall/kubenix) is a Kubernetes management with Nix.
 
  - [Disnix](https://github.com/svanderburg/disnix) is a microservice architecture built with Nix.
 
