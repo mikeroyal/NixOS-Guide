@@ -101,15 +101,15 @@
 
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
-[NixOS](https://nixos.org/) is a Linux distribution built on top of the [Nix package manager](https://nixos.wiki/wiki/Nix). It has tools dedicated to DevOps and deployment tasks.
+[NixOS](https://nixos.org/) is a Linux distribution built on top of the [Nix package manager](https://wiki.nixos.org/wiki/Nix). It has tools dedicated to DevOps and deployment tasks.
 
 [Nix Tour](https://nixcloud.io/tour/) is an interactive tour that uses the actual package manager to learn you the language by example, in the browser.
 
-[Nix](https://nixos.wiki/wiki/Nix) is a package manager and build system that parses reproducible build instructions specified in the [Nix Expression Language](https://nixos.wiki/wiki/Nix_Expression_Language), is a pure functional language with lazy evaluation. Nix expressions are pure functions taking dependencies as arguments and producing derivation specifying a reproducible build environment for the package. Nix stores the results of the build in unique addresses specified by a hash of the complete dependency tree, creating an immutable package store that allows for atomic upgrades, rollbacks and concurrent installation of different versions of a package, essentially eliminating [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell).
+[Nix](https://wiki.nixos.org/wiki/Nix) is a package manager and build system that parses reproducible build instructions specified in the [Nix Expression Language](https://wiki.nixos.org/wiki/Nix_Expression_Language), is a pure functional language with lazy evaluation. Nix expressions are pure functions taking dependencies as arguments and producing derivation specifying a reproducible build environment for the package. Nix stores the results of the build in unique addresses specified by a hash of the complete dependency tree, creating an immutable package store that allows for atomic upgrades, rollbacks and concurrent installation of different versions of a package, essentially eliminating [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell).
 
-[Nix Expression Language](https://nixos.wiki/wiki/Nix_Expression_Language) is a pure, lazy, functional language. Purity means that operations in the language don't have side-effects (for instance, there is no variable assignment). The language is not a full-featured, general purpose language. Its main job is to describe packages, compositions of packages, and the variability within packages.
+[Nix Expression Language](https://wiki.nixos.org/wiki/Nix_Expression_Language) is a pure, lazy, functional language. Purity means that operations in the language don't have side-effects (for instance, there is no variable assignment). The language is not a full-featured, general purpose language. Its main job is to describe packages, compositions of packages, and the variability within packages.
 
-[Nixpkgs](https://nixos.wiki/wiki/Nixpkgs) is the largest repository of [Nix](https://nixos.wiki/wiki/Nix) packages(over 80,000 packages) and [NixOS](https://nixos.wiki/wiki/NixOS) modules. The repository is [hosted on GitHub](https://github.com/nixos/nixpkgs) and maintained by the community, with official backing from the [NixOS Foundation](https://nixos.org/). Additionally, checkout [Language-specific package helpers](https://nixos.wiki/wiki/Language-specific_package_helpers) and [Alternative Package Sets](https://nixos.wiki/wiki/Alternative_Package_Sets).
+[Nixpkgs](https://wiki.nixos.org/wiki/Nixpkgs) is the largest repository of [Nix](https://wiki.nixos.org/wiki/Nix) packages(over 80,000 packages) and [NixOS](https://wiki.nixos.org/wiki/NixOS) modules. The repository is [hosted on GitHub](https://github.com/nixos/nixpkgs) and maintained by the community, with official backing from the [NixOS Foundation](https://nixos.org/). Additionally, checkout [Language-specific package helpers](https://wiki.nixos.org/wiki/Language-specific_package_helpers) and [Alternative Package Sets](https://wiki.nixos.org/wiki/Alternative_Package_Sets).
 
 [NixOS Packages Search](https://search.nixos.org/packages) is a tool for searching through NixOS packages.
 
@@ -156,7 +156,7 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 ## NixOS Developer Resources
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
- - [NixOS Wiki](https://nixos.wiki/)
+ - [NixOS Wiki](https://wiki.nixos.org/)
 
  - [NixOS Pills - Developer Guides](https://nixos.org/guides/nix-pills/)
  
@@ -164,17 +164,17 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 
  - [Nix Package Manager Manual](https://nixos.org/manual/nix/stable/#chap-installation)
 
- - [Home Manager - NixOS Wiki](https://nixos.wiki/wiki/Home_Manager)
+ - [Home Manager - NixOS Wiki](https://wiki.nixos.org/wiki/Home_Manager)
  
  - [What Is Nix — Developer Tooling | Shopify Engineering](https://shopify.engineering/what-is-nix)
  
- - [NixOS configurations collection](https://nixos.wiki/wiki/Configuration_Collection)
+ - [NixOS configurations collection](https://wiki.nixos.org/wiki/Configuration_Collection)
  
  - [Install and Configure NixOS on a Linode](https://www.linode.com/docs/guides/install-nixos-on-linode/)
  
  - [Zero to Nix from Determinate Systems](https://zero-to-nix.com/start/install)
 
- - [Cheatsheet - NixOS Wiki](https://nixos.wiki/index.php?title=Cheatsheet&useskin=vector)
+ - [Cheatsheet - NixOS Wiki](https://wiki.nixos.org/wiki/Cheatsheet)
  
  - [nix.dev guide for developers](https://nix.dev/)
  
@@ -188,7 +188,7 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 
  - [Getting started with Home Manager for Nix](https://ghedam.at/24353/tutorial-getting-started-with-home-manager-for-nix)
 
- - [NixOS Wiki - Raspberry Pi 4](https://nixos.wiki/wiki/NixOS_on_ARM/Raspberry_Pi_4)
+ - [NixOS Wiki - Raspberry Pi 4](https://wiki.nixos.org/wiki/NixOS_on_ARM/Raspberry_Pi_4)
 
  - [NixOS aarm64 SD image](https://hydra.nixos.org/job/nixos/trunk-combined/nixos.sd_image.aarch64-linux)
 
@@ -418,14 +418,14 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 ###  C
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
-  - [C - NixOS Wiki](https://nixos.wiki/wiki/C)
+  - [C - NixOS Wiki](https://wiki.nixos.org/wiki/C)
  
   - [ccls](https://github.com/MaskRay/ccls)  is a C/C++/Objective-C language server.
    
 ### Python
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
- - [Python - NixOS Wiki](https://nixos.wiki/wiki/Python)
+ - [Python - NixOS Wiki](https://wiki.nixos.org/wiki/Python)
 
  - [Mach-nix](https://github.com/DavHau/mach-nix) is a tool to create highly reproducible python environments.
  
@@ -436,14 +436,14 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 ### Ruby
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
- - [Ruby - NixOS Wiki](https://nixos.wiki/wiki/Ruby)
+ - [Ruby - NixOS Wiki](https://wiki.nixos.org/wiki/Ruby)
 
  - [Bundix](https://github.com/nix-community/bundix) is a tool that generates a Nix expression for your Bundler-managed application.
  
 ### Go
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
- - [Go - NixOS Wiki](https://nixos.wiki/wiki/Go)
+ - [Go - NixOS Wiki](https://wiki.nixos.org/wiki/Go)
  
  - [Gomod2nix](https://github.com/tweag/gomod2nix) is a tool to convert applications using Go modules to Nix expressions.
  
@@ -454,7 +454,7 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 ### Rust
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
  
- - [Rust - NixOS Wiki](https://nixos.wiki/wiki/Rust)
+ - [Rust - NixOS Wiki](https://wiki.nixos.org/wiki/Rust)
 
  - [Fenix](https://github.com/nix-community/fenix) is a Rust toolchains and Rust analyzer nightly for nix.
  
@@ -491,7 +491,7 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 ### Haskell
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
  
- - [Haskell - NixOS Wiki](https://nixos.wiki/wiki/Haskell)
+ - [Haskell - NixOS Wiki](https://wiki.nixos.org/wiki/Haskell)
  
  - [Cabal2nix](https://github.com/NixOS/cabal2nix) is a tool that converts a Cabal file into a Nix build expression.
  
@@ -506,7 +506,7 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 ### Node.js
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
- - [Node.js - NixOS Wiki](https://nixos.wiki/wiki/Node.js)
+ - [Node.js - NixOS Wiki](https://wiki.nixos.org/wiki/Node.js)
  
  - [Napalm](https://github.com/nmattia/napalm) - Support for building npm packages in Nix with a lightweight npm registry.
  
@@ -519,7 +519,7 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 ### PHP
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
  
- - [PHP - NixOS Wiki](https://nixos.wiki/wiki/PHP)
+ - [PHP - NixOS Wiki](https://wiki.nixos.org/wiki/PHP)
  
  - [Composer2nix](https://github.com/svanderburg/composer2nix) is a tool to generate Nix expressions to build composer packages.
  
@@ -534,14 +534,14 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 ### Perl
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
- - [Perl- NixOS Wiki](https://nixos.wiki/wiki/Perl)
+ - [Perl- NixOS Wiki](https://wiki.nixos.org/wiki/Perl)
  
  - [Perl packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=perl)
  
 ### Java
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
- - [Java - NixOS Wiki](https://nixos.wiki/wiki/Java)
+ - [Java - NixOS Wiki](https://wiki.nixos.org/wiki/Java)
  
  - [Java Packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=java)
  
@@ -550,21 +550,21 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 ### Lua
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
- - [Lua - NixOS Wiki](https://nixos.wiki/wiki/Lua)
+ - [Lua - NixOS Wiki](https://wiki.nixos.org/wiki/Lua)
  
  - [Lua packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=lua)
  
 ### LLVM
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
- - [LLVM - NixOS Wiki](https://nixos.wiki/wiki/LLVM)
+ - [LLVM - NixOS Wiki](https://wiki.nixos.org/wiki/LLVM)
  
  - [LLVM packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=llvm)
  
 ### Julia
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
- - [Julia - NixOS Wiki](https://nixos.wiki/wiki/Julia)
+ - [Julia - NixOS Wiki](https://wiki.nixos.org/wiki/Julia)
  
  - [Julia packages for NixOS](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=julia)
  
@@ -594,7 +594,7 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 
  - [Lisp packages for NixOS](https://github.com/NixOS/nixpkgs/tree/nixos-22.05/pkgs/development/lisp-modules)
 
- - [Emacs for NixOS](https://nixos.wiki/wiki/Emacs) is an interactive graphical emacs lisp interpreter that comes with many applications, but is primarily used as a text and code editor. 
+ - [Emacs for NixOS](https://wiki.nixos.org/wiki/Emacs) is an interactive graphical emacs lisp interpreter that comes with many applications, but is primarily used as a text and code editor. 
 
  - [Emacs overlay for Nixpkgs](https://github.com/nix-community/emacs-overlay) is a bleeding edge emacs overlay for Nixpkgs.
 
@@ -634,21 +634,21 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
  ### DotNet
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
- - [ DotNet - NixOS Wiki](https://nixos.wiki/wiki/DotNET)
+ - [ DotNet - NixOS Wiki](https://wiki.nixos.org/wiki/DotNET)
  
  - [NixOS packages for DotNet](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=dotnet)
 
 ### CUDA
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
- - [CUDA - NixOS Wiki](https://nixos.wiki/wiki/CUDA)
+ - [CUDA - NixOS Wiki](https://wiki.nixos.org/wiki/CUDA)
  
  - [NixOS packages for CUDA](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=cuda)
 
 ### Qt
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
- - [Qt - NixOS Wiki](https://nixos.wiki/wiki/Qt)
+ - [Qt - NixOS Wiki](https://wiki.nixos.org/wiki/Qt)
  
  - [NixOS packages for Qt](https://search.nixos.org/packages?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=qt)
  
@@ -656,7 +656,7 @@ Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stabl
 # Getting Software
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
-[Nixpkgs](https://nixos.wiki/wiki/Nixpkgs) is the largest repository of [Nix](https://nixos.wiki/wiki/Nix) packages(over 80,000 packages) and [NixOS](https://nixos.wiki/wiki/NixOS) modules. The repository is [hosted on GitHub](https://github.com/nixos/nixpkgs) and maintained by the community, with official backing from the [NixOS Foundation](https://nixos.org/). Additionally, checkout [Language-specific package helpers](https://nixos.wiki/wiki/Language-specific_package_helpers) and [Alternative Package Sets](https://nixos.wiki/wiki/Alternative_Package_Sets).
+[Nixpkgs](https://wiki.nixos.org/wiki/Nixpkgs) is the largest repository of [Nix](https://wiki.nixos.org/wiki/Nix) packages(over 80,000 packages) and [NixOS](https://wiki.nixos.org/wiki/NixOS) modules. The repository is [hosted on GitHub](https://github.com/nixos/nixpkgs) and maintained by the community, with official backing from the [NixOS Foundation](https://nixos.org/). Additionally, checkout [Language-specific package helpers](https://wiki.nixos.org/wiki/Language-specific_package_helpers) and [Alternative Package Sets](https://wiki.nixos.org/wiki/Alternative_Package_Sets).
 
 [NixOS Packages Search](https://search.nixos.org/packages) is a tool for searching through NixOS packages.
 
@@ -716,7 +716,7 @@ I recommend using Flatpaks on NixOS, which makes installing/updating application
 ## Steam
 [Back to the Top](https://github.com/mikeroyal/NixOS-Guide#table-of-contents)
 
-[Steam - NixOS Wiki](https://nixos.wiki/wiki/Steam)
+[Steam - NixOS Wiki](https://wiki.nixos.org/wiki/Steam)
 
 [Steam Flatpak](https://flathub.org/apps/details/com.valvesoftware.Steam) available on FlatHub.
 
