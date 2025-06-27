@@ -32,7 +32,7 @@
      - [C](#C)
      - [Python](#python)
      - [Ruby](#ruby)
-     - [Go](h#Go)
+     - [Go](#Go)
      - [Rust](#rust)
      - [Scala](#scala)
      - [Clojure](#Clojure)
